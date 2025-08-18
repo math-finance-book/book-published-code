@@ -15,10 +15,28 @@
         " \n",
         "---\n",
         "\n",
-        "<a target=\"_blank\" href=\"https://colab.research.google.com/github/math-finance-book/book-code/blob/main/01_Intro\">\n",
+        "<a target=\"_blank\" href=\"https://colab.research.google.com/github/math-finance-book/book-code/blob/main/04_Intro\">\n",
         "  <img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/>\n",
         "</a>"
       ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "\n",
+        "import plotly\n",
+        "from IPython.display import display, HTML\n",
+        "\n",
+        "plotly.offline.init_notebook_mode(connected=True)\n",
+        "display(\n",
+        "    HTML(\n",
+        "        '<script type=\"text/javascript\" async src=\"https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_SVG\"></script>'\n",
+        "    )\n",
+        ")"
+      ],
+      "execution_count": null,
+      "outputs": []
     }
   ],
   "metadata": {
